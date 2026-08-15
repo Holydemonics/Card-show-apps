@@ -1,0 +1,39 @@
+CARD SHOW APPS — GITHUB PAGES SETUP
+
+Repository:
+  Card-show-apps
+
+Upload ALL files in this package to the ROOT of the repository.
+Do not rename the files.
+
+Files:
+  index.html
+  mtg.html
+  pokemon.html
+  mtg-manifest.json
+  pokemon-manifest.json
+  card-show-sw.js
+  mtg-192.png
+  mtg-512.png
+  pokemon-192.png
+  pokemon-512.png
+
+Then enable GitHub Pages:
+  Repository -> Settings -> Pages
+  Source: Deploy from a branch
+  Branch: main
+  Folder: / (root)
+  Save
+
+After GitHub Pages publishes:
+  MTG: https://YOURUSERNAME.github.io/Card-show-apps/mtg.html
+  Pokémon: https://YOURUSERNAME.github.io/Card-show-apps/pokemon.html
+
+On Android/Chrome:
+  Open the app URL
+  Menu (⋮)
+  Add to home screen / Install app
+
+Important:
+  The card lookup still needs internet access because it uses the Pokémon/MTG
+  card databases. The app shell itself is cached after first load.
