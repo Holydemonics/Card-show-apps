@@ -1196,8 +1196,7 @@ button:active { transform:translateY(1px); }
 }
 </style>
 
-<link rel="manifest" href="pokemon-manifest.json">
-<meta name="theme-color" content="#111827">
+<link rel="manifest" href="pokemon-manifest.json"><meta name="theme-color" content="#111827"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Pokémon Card Show">
 </head>
 <body>
 <header>
@@ -2110,14 +2109,12 @@ document.addEventListener('keydown', e => {
 });
 render();
 </script>
-
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('card-show-sw.js').catch(() => {});
+    navigator.serviceWorker.register('./card-show-sw.js').catch(() => {});
   });
 }
 </script>
-
 </body>
 </html>

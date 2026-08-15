@@ -1,12 +1,14 @@
 {
+  "id": "./pokemon.html",
   "name": "Pok\u00e9mon Card Show Pricing Calculator",
   "short_name": "Pok\u00e9mon Card Show",
+  "description": "Pok\u00e9mon Trading Card Game card-show pricing calculator.",
   "start_url": "./pokemon.html",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#f4f6f8",
   "theme_color": "#111827",
-  "description": "Pok\u00e9mon Trading Card Game card-show pricing calculator.",
   "icons": [
     {
       "src": "pokemon-192.png",
